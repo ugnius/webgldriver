@@ -1,0 +1,79 @@
+
+
+DONE: 
+ ready sound
+ Clean Object3D
+
+ MAIN MENU CAMERA COMPOSITION <
+ GUI TEXT OCCLUSION
+ BACKFACE CULLING
+ Basic JOYSTICK CONTROLLS
+ WORLD OBJECTS
+ BUY CAR
+ Update models
+ port ground
+ file optimization
+ LOGOUT TO MAIN MENU
+ CAR front camera
+ only integrate past frames when returning after blur timeouts
+ refactor ws class ( class could be ranamed, otherwise ok )
+ fix corupt frames ( corupt frames were caused by TCP packets clustering together, TCP packets are now beeing split )
+ full Joystick controlls
+ 
+ sound loader errors
+ FIX: can not reverse downhill
+ FIX: correct downshifting
+ ADD: vignette uniforms (blood collor yay?)
+ FIX: speedometer, alooring absolute number
+ ADD: Tripple rainbow
+ ADD: (mute)silence game on blur
+ 
+ ADD: Colormap post effect
+ ADD: Chromatic aberration post effect
+ ADD: Motion blurr post effect
+ 
+
+TODO:
+ 
+
+ CHECKPOINTS RACE
+ CAR SPECS
+ FF Joystick
+ Fix commands
+ GUI aspect ratio
+ lower terrain not road ( will cause changes to water level )
+ changing camera back causes NaNs ( hard to reproduce, will fix when found )
+ test JPEG encoding
+ 
+ float camera (sin/cos?)
+ load time stuff;
+ Collisions
+ Networking
+ Texture supersampling ( rotated cuve )
+ user camera collisions
+ 
+ optimize object filtering
+ blend depth caching
+ refractod shaders to support full world light collor mapping
+ 
+ file index
+ class index
+ group shaders to one file
+ CAR RESET with delay
+ 
+ car state is not uniform even when no frames are dropped ( check states, integration, contol frame timing )
+ show network status ( user should be able to see network stats, possibly TAB network bars, ping times )
+ try to reconnect after dropped connection, ( client side, always )
+ disconnect user if network is down for long, 5 seconds (  )
+ TAB show player list and pings ( small 3d text ovelaping, player names, network stats )
+ drop players if no frames received recently, (ping before),
+ 
+ wait for ping calculation before connecting to server
+ background loop to keep alive for server.
+ 
+BUGS:
+ 
+ Sound changing menu reseting sound
+ 
+ 
+ 

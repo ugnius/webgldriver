@@ -1,0 +1,8 @@
+# Blender v2.63 (sub 0) OBJ File: 'terain.blend'
+# www.blender.org
+g loc_ktu_Plane.022
+v 385.358704 -0.047846 -431.922821
+v 384.896912 -0.047846 -431.035828
+v 385.358704 0.952154 -431.922821
+s off
+f 1 3 2

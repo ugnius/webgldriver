@@ -1,0 +1,8 @@
+# Blender v2.63 (sub 0) OBJ File: 'terain.blend'
+# www.blender.org
+g loc_laivas_Plane.000
+v 627.846069 -21.653788 990.191162
+v 683.601257 -21.653788 998.954895
+v 627.846069 34.785965 990.191162
+s off
+f 1 3 2

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /obj/
+Disallow: /shaders/
+Disallow: /sound/
+Disallow: /textures/
